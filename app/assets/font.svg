@@ -1,0 +1,26 @@
+<svg width="2458" height="186" viewBox="0 0 2458 186" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_n_189_38)">
+        <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" fill="white" font-family="Montserrat, 'Helvetica Neue', Arial, sans-serif" font-size="140" font-weight="700">KOVAL BOHDAN</text>
+    </g>
+    <defs>
+    <filter id="filter0_n_189_38" x="0" y="0" width="2458" height="186" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+    <feTurbulence type="fractalNoise" baseFrequency="0.90909087657928467 0.90909087657928467" stitchTiles="stitch" numOctaves="3" result="noise" seed="162"></feTurbulence>
+    <feComponentTransfer in="noise" result="coloredNoise1">
+    <feFuncR type="linear" slope="2" intercept="-0.5"></feFuncR>
+    <feFuncG type="linear" slope="2" intercept="-0.5"></feFuncG>
+    <feFuncB type="linear" slope="2" intercept="-0.5"></feFuncB>
+    <feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "></feFuncA>
+    </feComponentTransfer>
+    <feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped"></feComposite>
+    <feComponentTransfer in="noise1Clipped" result="color1">
+    <feFuncA type="table" tableValues="0 0.81"></feFuncA>
+    </feComponentTransfer>
+    <feMerge result="effect1_noise_189_38">
+    <feMergeNode in="shape"></feMergeNode>
+    <feMergeNode in="color1"></feMergeNode>
+    </feMerge>
+    </filter>
+    </defs>
+</svg>

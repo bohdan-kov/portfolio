@@ -10,7 +10,7 @@
 <style scoped>
 .app-container {
   position: relative;
-  min-height: 100vh;
+  max-height: 100vh;
   width: 100%;
 }
 

@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   modules: [],
 
-  css: ["~/assets/css/main.css", "~/assets/css/reset.css"],
+  css: ["~/assets/css/reset.css", "~/assets/css/main.css"],
 
   app: {
     head: {
