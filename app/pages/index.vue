@@ -329,4 +329,34 @@ const links = computed(() => [
   transform: scale(1.2);
   color: white;
 }
+
+@media screen and (max-width: 1280px) {
+  .portfolio-page__content {
+    margin: 56px auto 0;
+    padding: 0 16px;
+    box-sizing: border-box;
+    max-width: 1100px;
+  }
+  .portfolio-page__content,
+  .portfolio-page__section {
+    position: static;
+  }
+  .portfolio-page__section-title {
+    font-size: 32px;
+  }
+  .portfolio-page__item-text {
+    font-size: 16px;
+  }
+  .portfolio-page__item-divider {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 535px) {
+  .portfolio-page__section-title {
+    font-size: 28px;
+  }
+  .portfolio-page__section {
+    width: 100%;
+  }
+}
 </style>

@@ -57,6 +57,7 @@ export const BOOST_DECAY_DELAY_FRAMES = 260;
 export const BASE_RADIUS_FACTOR_A = 0.35;
 export const BASE_RADIUS_FACTOR_B = 0.18;
 export const BASE_RADIUS_FACTOR_C = 0.33;
+export const MAX_BLACK_HOLE_RADIUS_PX = 160; 
 
 // Key codes for boost triggers
 export const KEY_TRIGGER_CODES = new Set([
